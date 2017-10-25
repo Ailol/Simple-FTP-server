@@ -1,0 +1,5 @@
+.clfooter {
+   font-family:Verdana;
+   font-size:7pt;
+   font-weight:normal;
+}
