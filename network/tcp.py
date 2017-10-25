@@ -1,6 +1,7 @@
 import socket as sock
 import threading
 
+
 class TcpConnection(object):
     """
     Transport layer protocol
@@ -14,7 +15,7 @@ class TcpConnection(object):
     def client_connect(self):
         client = client, address = self.socket.accept()
         return client
-     
+
     def connect(self):
         self.socket.setsockopt(sock.SOL_SOCKET, sock.SO_REUSEADDR, 1)
         self.socket.bind((self.host, self.port))
