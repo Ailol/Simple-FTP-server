@@ -76,6 +76,9 @@ class Sftp(TcpConnection):
         """
             Checks for correct keys, and routes to either the server disk, or
             denies access.
+            
+            @Returns a tuple of (rsa key, ciphertext)
+            
         """
 
         if self.check_permission(data) != -1:
