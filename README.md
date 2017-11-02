@@ -14,7 +14,7 @@
 	python server.py host port
 	python client.py host port
 
-##Makefile
+## Makefile
 Used mainly for formatting, cleanup and tests.
 
 
